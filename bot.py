@@ -77,5 +77,5 @@ async def on_ready( ):
     await client.change_presence( status = discord.Status.online, activity = discord.Game("Python") )
 
 #Запуск
-#token = os.environ.get('BOT_TOKEN')
-client.run( config.TOKEN )
+token = os.environ.get('BOT_TOKEN')
+client.run( token )
