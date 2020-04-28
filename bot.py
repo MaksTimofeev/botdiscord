@@ -78,4 +78,4 @@ async def on_ready( ):
 
 #Запуск
 token = os.environ.get('BOT_TOKEN')
-client.run( token )
+client.run(str(token))
